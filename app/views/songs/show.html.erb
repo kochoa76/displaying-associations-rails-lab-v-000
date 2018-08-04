@@ -1,4 +1,4 @@
 <h3><%= @song.title %></h3>
 <ul>
-  <%= link_to @song.artist_name, artist_path(artist) %></li>
+  <%= link_to @song.artist_name, artist_path(@song.artist) %></li>
 </ul>
