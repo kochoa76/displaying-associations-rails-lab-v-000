@@ -8,3 +8,4 @@ class Song < ActiveRecord::Base
   def artist_name
     self.artist.name
   end
+end 
