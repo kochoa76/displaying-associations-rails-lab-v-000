@@ -23,7 +23,7 @@ class ArtistsController < ApplicationController
   end
 
   def edit
-    find_artist 
+    find_artist
   end
 
   def update
