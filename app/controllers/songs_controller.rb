@@ -26,7 +26,7 @@ class SongsController < ApplicationController
   end
 
   def update
-    find_song 
+    find_song
     @song.update(song_params)
 
     if @song.save
